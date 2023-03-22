@@ -1,4 +1,3 @@
 # 주스(Juice)
-`Deprecated`
 
-Test repository for OSS class.
+Test repository for university class.
