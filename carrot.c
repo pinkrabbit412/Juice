@@ -2,6 +2,7 @@
 
 int carrot() {
 	float kcal_100g = 41.3;
+	bool is_dirty = false;
 	printf("Rabbit likes me!");
 }
 
